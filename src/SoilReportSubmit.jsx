@@ -1,5 +1,5 @@
 import yourLogo from "./assets/soil.png";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import desIcon from "./assets/des.png";
 import uploadIcon from "./assets/upload.png";
 import calender1Icon from "./assets/cal.png";

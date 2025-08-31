@@ -1,6 +1,6 @@
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import yourLogo from "./assets/into4.png";
+import yourLogo from "../assets/into4.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
 

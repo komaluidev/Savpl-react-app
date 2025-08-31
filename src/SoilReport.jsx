@@ -3,7 +3,7 @@ import staffIcon from "./assets/staff.png";
 import desIcon from "./assets/des.png";
 import detectIcon from "./assets/detect.png";
 import uploadIcon from "./assets/upload.png";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 const SoilReport = () => {
   return (

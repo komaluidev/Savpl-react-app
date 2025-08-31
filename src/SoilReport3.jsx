@@ -1,5 +1,5 @@
 import yourLogo from "./assets/soil.png";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 const SoilReport3 = () => {
   return (
