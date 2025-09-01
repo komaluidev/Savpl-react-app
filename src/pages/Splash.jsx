@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import yourLogo from "../assets/savpl-logo.png";
 import { useNavigate } from "react-router-dom";
+ import yourLogo from "../assets/savpal.png";
 
 const Splash = () => {
   const navigate = useNavigate();
-
+ 
   useEffect(() => {
     setTimeout(() => {
       navigate("/Into1");

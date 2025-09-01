@@ -5,12 +5,12 @@ export const IntroStepper = ({
   description,
   prevHref,
   nextHref,
-  bg
+  yourLogo
 }) => {
   return (
     <div
-      className="h-screen w-screen justify-center items-end flex bg-cover bg-top bg-no-repeat"
-      style={{ backgroundImage: `url(${bg})` }}
+      className="h-screen w-screen justify-center items-end flex bg-cover bg-center bg-no-repeat"
+      style={{ backgroundImage: `url(${  yourLogo})` }}
     >
       <div className="bg-white flex-1 max-w-md lg:max-w-3xl xl:max-w-3xl 2xl:max-w-4xl p-4 lg:p-12 rounded-t-lg ">
         <div>

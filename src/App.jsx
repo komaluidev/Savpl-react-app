@@ -6,13 +6,13 @@ import CattleQuery from "./CattleQuery";
 import Into1 from "./pages/Into1";
 import Into2 from "./pages/Into2";
 import Into3 from "./pages/Into3";
-import Into4 from "./pages/Into4";
 import ReportQuery from "./ReportQuery";
 import SelectLanguage from "./SelectLanguage";
 import SelectYourCrop from "./SelectYourCrop";
 import SoilReport from "./SoilReport";
 import SoilReport3 from "./SoilReport3";
 import SoilReportSubmit from "./SoilReportSubmit";
+
 import Splash from "./pages/Splash";
 import { Route, Routes } from "react-router-dom";
 import Step1 from "./Step1";
@@ -24,15 +24,17 @@ import Step6 from "./Step6";
 import Step7 from "./Step7";
 import { IntroStepper } from "./components/IntroStepper";
 import intro1Bg from './assets/into1.png';
+import WelcomePage from "./pages/WelcomePage";
 function App() {
   return (
     <div className="font-poppins mx-auto min-h-screen">
       <Routes>
-        <Route path="/" element={<Splash />} />
+       
+          <Route path="/" element={<Splash />} />
         <Route path="/Into1" element={<Into1/>} />
         <Route path="/Into2" element={<Into2 />} />
         <Route path="/Into3" element={<Into3 />} />
-        <Route path="/Into4" element={<Into4 />} />
+        <Route path="/Welcomepage" element={<WelcomePage />} />
         <Route path="/language" element={<SelectLanguage />} />
         <Route path="/authlogin" element={<AuthLogin />} />
         <Route path="/authlogin1" element={<AuthLogin1 />} />

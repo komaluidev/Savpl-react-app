@@ -1,5 +1,5 @@
 import yourLogo from "../assets/into1.png";
-
+import { IntroStepper } from "../components/IntroStepper";
 const Into1 = () => {
   return (
     <IntroStepper
@@ -10,7 +10,7 @@ const Into1 = () => {
               culpa eum!`}
       prevHref={"/"}
       nextHref={"/Into2"}
-      bg={yourLogo}
+      yourLogo={yourLogo}
     />
   );
 };
