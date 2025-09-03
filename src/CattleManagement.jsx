@@ -7,7 +7,7 @@ import uploadIcon from "./assets/upload.png";
 import animalIcon from "./assets/animal.png";
 import vaccinationIcon from "./assets/vaccination.png";
 import notesIcon from "./assets/notes.png";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 const CattleManagement = () => {
   return (

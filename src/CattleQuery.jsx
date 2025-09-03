@@ -3,7 +3,7 @@ import eyebIcon from "./assets/eyeblue.png";
 import deleteIcon from "./assets/delete.png";
 import downloadIcon from "./assets/down.png";
 import cattle from "./assets/cattle.png";
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 
 
 const CattleQuery = () => {

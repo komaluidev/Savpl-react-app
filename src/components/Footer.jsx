@@ -1,10 +1,10 @@
 import { useState } from "react";
 
-import HomeIcon from "./assets/home.png";
-import chatIcon from "./assets/chat.png";
-import FarmsIcon from "./assets/farms.png";
-import calenderIcon from "./assets/calender2.png";
-import settingIcon from "./assets/settings.png";
+import HomeIcon from "../assets/home.png";
+import chatIcon from "../assets/chat.png";
+import FarmsIcon from "../assets/farms.png";
+import calenderIcon from "../assets/calender2.png";
+import settingIcon from "../assets/settings.png";
 
 const Footer = () => {
   const [activeTab, setActiveTab] = useState("chat");

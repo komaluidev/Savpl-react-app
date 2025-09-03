@@ -1,10 +1,10 @@
 import React, { useEffect } from "react";
-import yourLogo from "./assets/savpl-logo.png";
 import { useNavigate } from "react-router-dom";
+ import yourLogo from "../assets/savpal.png";
 
 const Splash = () => {
   const navigate = useNavigate();
-
+ 
   useEffect(() => {
     setTimeout(() => {
       navigate("/Into1");
@@ -12,13 +12,11 @@ const Splash = () => {
   }, []);
 
   return (
-    <div className="flex w-full h-screen bg-green-200 ">
-      <div className="" >
+    <div className="w-full flex justify-center items-center h-screen bg-green-200 ">
         <img
           src={yourLogo}
           alt="SAVPL Nature's Ally Logo"
         />
-      </div>
     </div>
   );
 };
