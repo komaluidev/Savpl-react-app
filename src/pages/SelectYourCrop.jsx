@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Button from "./components/Button";
-import savpalImg from "./assets/savpal.png"
+import Button from "../components/Button";
+import savpalImg from "../assets/savpal.png"
 
 const SelectYourCrop = () => {
   const [selectedCrop, setSelectedCrop] = useState(null);
@@ -34,7 +34,7 @@ const SelectYourCrop = () => {
           }}
         ></div>
  
-      <div className="bg-[#F4F5F9] p-8 shadow-lg ">
+      <div className="bg-[#F4F5F9] p-8 shadow-lg  max-w-md w-full mx-auto">
 
         <div className="flex justify-center items-center">
         <div  className ="w-40 h-20 bg-no-repeat bg-contain" style={{ backgroundImage: `url(${savpalImg})` }}></div>

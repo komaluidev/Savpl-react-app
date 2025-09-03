@@ -1,11 +1,11 @@
-import StepPage from "./StepPage";
-import uploadIcon from './assets/upload.png';
-import LocationIcon from './assets/location.png';
+import StepPage from "../components/StepPage";
+import uploadIcon from '../assets/upload.png';
+import LocationIcon from '../assets/location.png';
 
-const Step7 = () =>{
+const Step4 = () =>{
 
-    const pageTitle = "Step 7 : Continue applying enriched LFOM" 
-    const pageInstruction = "Continue application of Liquid Fermented Organic Manure (LFOM) at specified intervals to sustain crop nutrition and soil balance."
+    const pageTitle = "Step 4 : Apply weedicides as recommended" 
+    const pageInstruction = "After crop emergence, apply suitable weedicides following correct dosage and timing to manage weed growth."
     return (
         <StepPage title={pageTitle} instruction={pageInstruction}>
          
@@ -18,7 +18,7 @@ const Step7 = () =>{
                      <img src={uploadIcon} alt="Seed photo icon" className="h-6 w-6" />
                    </div>
                    <span className="font-normal text-black text-sm flex-1">
-                     LFOM photo
+                     Field photo
                    </span>
          
                    <label>
@@ -64,9 +64,9 @@ const Step7 = () =>{
                </div>
          
                {/* Submit Button */}
-               <button className="bg-[#2f6003] text-white font-semibold py-4 rounded-full shadow-lg w-full">
-                 Resubmit
-               </button>
+               <button className="bg-[#6CC51D] text-white font-semibold py-2 rounded-full shadow-lg w-full">
+        Submit
+      </button>
 
 
              <div className="w-full p-2 bg-gray-100 rounded-xl flex flex-col items-center text-center">
@@ -76,10 +76,12 @@ const Step7 = () =>{
             Your query has been submitted
           </span>
         </p>
-        
+        <p className="text-lg font-bold text-cyan-900 mt-2">
+          Waiting Time: 00:00
+        </p>
         <p className="text-gray-500 text-xs italic text-center mt-2">
-         You have  completed all the steps to get
-update from the support
+          Only proceed to the next step once your current step is verified and
+          approved by the staff.
         </p>
       </div>
          
@@ -87,4 +89,4 @@ update from the support
     )
 }
 
-export default Step7;
+export default Step4;

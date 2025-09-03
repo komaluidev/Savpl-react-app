@@ -1,11 +1,11 @@
-import StepPage from "./StepPage";
-import uploadIcon from './assets/upload.png';
-import LocationIcon from './assets/location.png';
+import StepPage from "../components/StepPage";
+import uploadIcon from '../assets/upload.png';
+import LocationIcon from '../assets/location.png';
 
-const Step3 = () =>{
+const Step5 = () =>{
 
-    const pageTitle = "Step 3 : Crop sowing with recommended fertilizers" 
-    const pageInstruction = "Carry out sowing as per standard method and apply recommended fertilizers during sowing for strong crop establishment"
+    const pageTitle = "Step 5 : Apply weedicides as recommended" 
+    const pageInstruction = "Apply Urea based on recommended dose to support vegetative growth, once crop is healthy andweed-free."
     return (
         <StepPage title={pageTitle} instruction={pageInstruction}>
          
@@ -18,7 +18,7 @@ const Step3 = () =>{
                      <img src={uploadIcon} alt="Seed photo icon" className="h-6 w-6" />
                    </div>
                    <span className="font-normal text-black text-sm flex-1">
-                     Sowing photo
+                     Urea photo
                    </span>
          
                    <label>
@@ -64,16 +64,16 @@ const Step3 = () =>{
                </div>
          
                {/* Submit Button */}
-               <button className="bg-[#2f6003] text-white font-semibold py-4 rounded-full shadow-lg w-full">
-                 Resubmit
-               </button>
+             <button className="bg-[#6CC51D] text-white font-semibold py-2 rounded-full shadow-lg w-full">
+        Submit
+      </button>
 
 
-                  <div className="w-full p-2 bg-gray-100 rounded-xl flex flex-col items-center text-center">
+             <div className="w-full p-2 bg-gray-100 rounded-xl flex flex-col items-center text-center">
         <p className="text-sm font-semibold">
           Status:{" "}
-          <span className="text-[#EB0000] italic font-semibold">
-            Your query has been Rejected
+          <span className="text-green-700 font-normal">
+            Your query has been submitted
           </span>
         </p>
         <p className="text-lg font-bold text-cyan-900 mt-2">
@@ -89,4 +89,4 @@ const Step3 = () =>{
     )
 }
 
-export default Step3;
+export default Step5;

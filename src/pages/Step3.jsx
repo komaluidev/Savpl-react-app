@@ -1,11 +1,11 @@
-import StepPage from "./StepPage";
-import uploadIcon from './assets/upload.png';
-import LocationIcon from './assets/location.png';
+import StepPage from "../components/StepPage";
+import uploadIcon from '../assets/upload.png';
+import LocationIcon from '../assets/location.png';
 
-const Step6 = () =>{
+const Step3 = () =>{
 
-    const pageTitle = "Step 6 : Apply enriched Nutreem+ (5 days after Urea)" 
-    const pageInstruction = "After five days of Urea application, apply Nutreem+ to enhance nutrient uptake and soil health."
+    const pageTitle = "Step 3 : Crop sowing with recommended fertilizers" 
+    const pageInstruction = "Carry out sowing as per standard method and apply recommended fertilizers during sowing for strong crop establishment"
     return (
         <StepPage title={pageTitle} instruction={pageInstruction}>
          
@@ -18,7 +18,7 @@ const Step6 = () =>{
                      <img src={uploadIcon} alt="Seed photo icon" className="h-6 w-6" />
                    </div>
                    <span className="font-normal text-black text-sm flex-1">
-                     Nutreem+photo
+                     Sowing photo
                    </span>
          
                    <label>
@@ -64,16 +64,16 @@ const Step6 = () =>{
                </div>
          
                {/* Submit Button */}
-               <button className="bg-[#2f6003] text-white font-semibold py-4 rounded-full shadow-lg w-full">
+          <button className="bg-[#2f6003] text-white font-semibold py-4 rounded-full shadow-lg w-full">
                  Resubmit
                </button>
 
 
-             <div className="w-full p-2 bg-gray-100 rounded-xl flex flex-col items-center text-center">
+                  <div className="w-full p-2 bg-gray-100 rounded-xl flex flex-col items-center text-center">
         <p className="text-sm font-semibold">
           Status:{" "}
-          <span className="text-green-700 font-normal">
-            Your query has been submitted
+          <span className="text-[#EB0000] italic font-semibold">
+            Your query has been Rejected
           </span>
         </p>
         <p className="text-lg font-bold text-cyan-900 mt-2">
@@ -89,4 +89,4 @@ const Step6 = () =>{
     )
 }
 
-export default Step6;
+export default Step3;
