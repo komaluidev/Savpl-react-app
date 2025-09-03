@@ -1,17 +1,17 @@
-import yourLogo from "./assets/soil.png";
+import yourLogo from "../assets/soil.png";
 
-import cattle from "./assets/cattle.png";
-import desIcon from "./assets/des.png";
+import cattle from "../assets/cattle.png";
+import desIcon from "../assets/des.png";
 
-import uploadIcon from "./assets/upload.png";
-import animalIcon from "./assets/animal.png";
-import vaccinationIcon from "./assets/vaccination.png";
-import notesIcon from "./assets/notes.png";
-import Footer from "./Footer";
+import uploadIcon from "../assets/upload.png";
+import animalIcon from "../assets/animal.png";
+import vaccinationIcon from "../assets/vaccination.png";
+import notesIcon from "../assets/notes.png";
+import Footer from "../components/Footer";
 
 const CattleManagement = () => {
   return (
-    <div className="h-screen flex justify-center flex-col bg-gray-200 items-center">
+    <div className="h-screen flex justify-center flex-col max-w-md w-full mx-auto bg-gray-200 items-center">
       <div className="w-full h-full shadow-lg overflow-hidden">
       <div
           className="h-24"

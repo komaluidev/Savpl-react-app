@@ -1,31 +1,31 @@
-import yourLogo from "./assets/soil.png";
-import Footer from "./Footer";
-import desIcon from "./assets/des.png";
-import uploadIcon from "./assets/upload.png";
-import calender1Icon from "./assets/cal.png";
-import farmIcon from "./assets/farm.png";
+import yourLogo from "../assets/soil.png";
+import Footer from "../components/Footer";
+import desIcon from "../assets/des.png";
+import uploadIcon from "../assets/upload.png";
+import calender1Icon from "../assets/cal.png";
+import farmIcon from "../assets/farm.png";
 
 
 const SoilReportSubmit = () => {
   return (
-    <div className="h-screen flex justify-center flex-col bg-gray-200 items-center">
-      <div className="w-full  h-full shadow-lg overflow-hidden">
+    <div className="h-screen flex justify-center flex-col bg-gray-200 items-center w-full mx-auto">
+      <div className="w-full h-full shadow-lg overflow-hidden">
          <div
-          className="h-24"
+          className="sm:h-12  w-full mx-auto"
           style={{
             background:
               "linear-gradient(to bottom, rgba(108, 197, 29, 1), rgba(108, 197, 29, 0))",
           }}
         ></div>
 
-        <div className="flex justify-center">
+        <div className="flex justify-center items max-w-md w-full mx-auto ">
           <div
-            className="h-40 bg-contain w-full p-2 m-2 bg-no-repeat rounded-lg"
+            className="h-40 bg-contain w-full p-4 m-2 ml-8 bg-no-repeat rounded-lg"
             style={{ backgroundImage: `url(${yourLogo})` }}
           ></div>
         </div>
 
-        <div className="flex flex-col gap-3 p-2 rounded-full">
+        <div className="flex  max-w-md w-full mx-auto flex-col gap-3 p-2 rounded-full">
           <div className="flex items-center bg-gray-50 border border-gray-300 text-sm rounded-full pr-2 w-full ">
              <div className="bg-teal-100 rounded-full p-2 flex items-center justify-center mr-2">
             <img

@@ -1,9 +1,9 @@
 // src/Step2.jsx
 
 import React from 'react';
-import StepPage from "./StepPage";
-import uploadIcon from './assets/upload.png';
-import LocationIcon from './assets/location.png';
+import StepPage from "../components/StepPage";
+import uploadIcon from '../assets/upload.png';
+import LocationIcon from '../assets/location.png';
 
 const Step2 = () => {
   const pageTitle = "Step 2: Seed treatment with bio fertilizer/control";

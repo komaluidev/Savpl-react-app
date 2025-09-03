@@ -1,19 +1,25 @@
 import { useState } from "react";
 import { FaFacebook, FaGoogle } from "react-icons/fa";
-import telephoneIcon from "./assets/telephone.png";
-import passwordIcon from "./assets/password.png";
-import rememberIcon from "./assets/remember.png";
-import eyeIcon from "./assets/eye.png";
-import googleICon from "./assets/Google.png";
-import facebookIcon from "./assets/Facebook.png";
+import telephoneIcon from "../assets/telephone.png";
+import passwordIcon from "../assets/password.png";
+import rememberIcon from "../assets/remember.png";
+import eyeIcon from "../assets/eye.png";
+import googleICon from "../assets/Google.png";
+import facebookIcon from "../assets/Facebook.png";
 
 const AuthLogin1 = () => {
   const [activeButton, setActiveButton] = useState("phone");
   return (
     <div className="h-screen flex flex-col ">
-      <div class=" h-[130px] bg-[linear-gradient(180deg,#6CC51D_0%,#DAF3C0_100%)]"></div>
+     <div
+          className="h-24 w-full"
+          style={{
+            background:
+              "linear-gradient(to bottom, rgba(108, 197, 29, 1), rgba(108, 197, 29, 0))",
+          }}
+        ></div>
 
-      <div className="bg-white rounded-t-[40px] p-4 text-center">
+      <div className="bg-white rounded-t-[40px] p-4 text-center max-w-md w-full mx-auto">
         <div>
           <h1 className="text-2xl font-bold text-gray-800 mb-2">
             Welcome back

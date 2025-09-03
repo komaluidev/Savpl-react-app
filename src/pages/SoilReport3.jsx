@@ -1,13 +1,13 @@
-import yourLogo from "./assets/soil.png";
-import Footer from "./Footer";
+import yourLogo from "../assets/soil.png";
+import Footer from "../components/Footer";
 
 const SoilReport3 = () => {
   return (
-    <div className="h-screen flex justify-center flex-col bg-gray-200 items-center">
+    <div className="h-screen flex justify-center flex-col w-full mx-auto bg-gray-200 items-center">
       <div className="w-full h-full shadow-lg overflow-y-auto">
  
         <div className="h-[15vh] bg-[linear-gradient(180deg,#6CC51D_0%,#DAF3C0_100%)]"></div>
-        <div className="flex justify-center">
+        <div className="flex justify-center items max-w-md w-full mx-auto">
           <div
             className="h-40 bg-contain w-full max-w-xs bg-no-repeat rounded-lg"
             style={{ backgroundImage: `url(${yourLogo})` }}
@@ -15,7 +15,7 @@ const SoilReport3 = () => {
         </div>
 
 
-        <div className="flex flex-col gap-2 p-2">
+        <div className="flex flex-col gap-2 p-2  max-w-md w-full mx-auto">
          
           <div className="flex items-center bg-white rounded-2xl shadow-sm p-4 text-black">
             <input
