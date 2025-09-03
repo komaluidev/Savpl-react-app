@@ -1,14 +1,14 @@
-import yourLogo from "./assets/soil.png";
-import eyebIcon from "./assets/eyeblue.png";
-import deleteIcon from "./assets/delete.png";
-import downloadIcon from "./assets/down.png";
-import cattle from "./assets/cattle.png";
-import Footer from "./components/Footer";
+import yourLogo from "../assets/soil.png";
+import eyebIcon from "../assets/eyeblue.png";
+import deleteIcon from "../assets/delete.png";
+import downloadIcon from "../assets/down.png";
+import cattle from "../assets/cattle.png";
+import Footer from "../components/Footer";
 
 
 const CattleQuery = () => {
   return (
-    <div className="h-screen flex justify-center flex-col bg-gray-200 items-center">
+    <div className="h-screen flex justify-center flex-col max-w-md mx-auto w-full bg-gray-200 items-center">
       <div className="w-full h-full shadow-lg overflow-y-auto">
         <div className="h-[15vh] bg-[linear-gradient(180deg,#6CC51D_0%,#DAF3C0_100%)]"></div>
 

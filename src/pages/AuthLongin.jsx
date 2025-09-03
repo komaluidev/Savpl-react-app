@@ -1,20 +1,28 @@
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons/faEnvelope";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
-import emailIcon from "./assets/email_icon.png";
-import calenderIcon from "./assets/calendar.png";
-import telephoneIcon from "./assets/telephone.png";
-import passwordIcon from "./assets/password.png";
-import rememberIcon from "./assets/remember.png";
-import eyeIcon from "./assets/eye.png";
+import emailIcon from "../assets/email_icon.png";
+import calenderIcon from "../assets/calendar.png";
+import telephoneIcon from "../assets/telephone.png";
+import passwordIcon from "../assets/password.png";
+import rememberIcon from "../assets/remember.png";
+import eyeIcon from "../assets/eye.png";
 
 const AuthLogin = () => {
   const [activeButton, setActiveButton] = useState("signup");
   return (
-    <div className="h-screen flex flex-col overflow-hidden ">
-      <div class=" h-[130px] bg-[linear-gradient(180deg,#6CC51D_0%,#DAF3C0_100%)]"></div>
+         <div className="h-screen overflow-hidden flex flex-col items-center justify-start">
 
-      <div className="bg-white rounded-t-[40px] p-4 text-center">
+        <div
+          className="h-24 w-full"
+          style={{
+            background:
+              "linear-gradient(to bottom, rgba(108, 197, 29, 1), rgba(108, 197, 29, 0))",
+          }}
+        ></div>
+
+   
+      <div className="bg-white rounded-t-[40px] p-4  text-center max-w-md w-full mx-auto">
         <div>
           <h1 className="text-2xl font-bold text-gray-800 mb-2">
             Get started Now
@@ -46,7 +54,7 @@ const AuthLogin = () => {
         </div>
 
         <form>
-          <div className="grid gap-2 mb-2 md:grid-cols-2">
+          <div className="grid items-center gap-2 mb-2 md:grid-cols-2">
             <div>
               <input
                 type="text"
@@ -154,7 +162,7 @@ const AuthLogin = () => {
           </p>
         </div>
       </div>
-    </div>
+      </div>
   );
 };
 
