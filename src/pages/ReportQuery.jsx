@@ -7,7 +7,7 @@ import calendar from "../assets/calendardate.png";
 
 const ReportQuery = () => {
   return (
-    <div className="h-screen flex justify-center flex-col max-w-md mx-auto bg-gray-200 items-center">
+    <div className="h-screen flex justify-center flex-col  mx-auto bg-gray-200 items-center">
       <div className="w-full h-full shadow-lg overflow-y-auto">
         <div
           className="h-24"
@@ -22,14 +22,14 @@ const ReportQuery = () => {
             style={{ backgroundImage: `url(${yourLogo})` }}
           ></div>
         </div>
-        <div className="flex justify-between items-center m-2 p-2">
+        <div className="flex justify-between items-center max-w-md mx-auto m-2 p-2">
           <p className="text-xs">Date 02-08-2025</p>
           <div className="flex justify-end gap-4 items-center">
           <p className="text-x ">Search by date</p>
            <img src={calendar} alt="calendar-icon" className="w-6 h-6 bg-slate-100" />
 </div>
         </div>
-        <div className="flex flex-col m-4 gap-1">
+        <div className="flex flex-col max-w-md mx-auto m-4 gap-1">
           <div className="flex items-center bg-white rounded-xl shadow-sm p-4 text-black ">
             <input
               type="text"

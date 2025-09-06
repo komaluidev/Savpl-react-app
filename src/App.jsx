@@ -25,6 +25,14 @@ import Step7 from "./pages/Step7";
 import { IntroStepper } from "./components/IntroStepper";
 import intro1Bg from './assets/into1.png';
 import WelcomePage from "./pages/WelcomePage";
+import AddNewFarm from "./pages/AddNewFarm";
+import FarmsList from "./pages/FarmsList";
+import GreenValleyFarm from "./pages/GreenValleyFarm";
+import InvoiceList from "./pages/InvoiceList";
+
+import ReportIssue from "./pages/ReportIssue";
+import CropIssue from "./pages/CropIssue";
+import UploadedPhoto from "./pages/UploadedPhoto";
 function App() {
   return (
     <div className="font-poppins mx-auto min-h-screen">
@@ -52,6 +60,14 @@ function App() {
         <Route path="/step5" element={<Step5 />} />
         <Route path="/step6" element={<Step6 />} />
         <Route path="/step7" element={<Step7 />} />
+        <Route  path="/addnewfarm" element ={<AddNewFarm />}/>
+          <Route  path="/farmslist" element ={<FarmsList />}/>
+            <Route  path="/greenvalleyfarm" element ={<GreenValleyFarm />}/>
+   <Route  path="/invoicelist" element ={<InvoiceList />}/>
+    <Route  path="/reportissue" element ={<ReportIssue/>}/>
+        <Route  path="/cropissue" element ={<CropIssue/>}/>
+          <Route  path="/uploadedphoto" element ={<UploadedPhoto/>}/>
+
       </Routes>
     </div>
   );
