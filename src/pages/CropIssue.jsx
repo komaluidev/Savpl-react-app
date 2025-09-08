@@ -46,13 +46,12 @@ const CropIssue = () => {
           key={i}
           className="bg-white rounded-xl p-4 mb-3 shadow flex justify-between items-start"
         >
-          {/* Left */}
           <div>
             <h3 className="font-bold text-gray-800">{farm.name}</h3>
             <p className="text-gray-600 text-sm">{farm.des}</p>
           </div>
 
-          {/* Right */}
+        
           <div className="flex flex-col items-center gap-2">
             <span className="text-gray-700 font-semibold">Status</span>
             {farm.status}

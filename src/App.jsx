@@ -23,7 +23,7 @@ import Step5 from "./pages/Step5";
 import Step6 from "./pages/Step6";
 import Step7 from "./pages/Step7";
 import { IntroStepper } from "./components/IntroStepper";
-import intro1Bg from './assets/into1.png';
+import intro1Bg from "./assets/into1.png";
 import WelcomePage from "./pages/WelcomePage";
 import AddNewFarm from "./pages/AddNewFarm";
 import FarmsList from "./pages/FarmsList";
@@ -33,13 +33,16 @@ import InvoiceList from "./pages/InvoiceList";
 import ReportIssue from "./pages/ReportIssue";
 import CropIssue from "./pages/CropIssue";
 import UploadedPhoto from "./pages/UploadedPhoto";
+import ActivityCard from "./pages/ActivityCard";
+import LinkFarmer from "./pages/LinkFarmer";
+
+import FarmerList from "./pages/FarmerList";
 function App() {
   return (
     <div className="font-poppins mx-auto min-h-screen">
       <Routes>
-       
-          <Route path="/" element={<Splash />} />
-        <Route path="/Into1" element={<Into1/>} />
+        <Route path="/" element={<Splash />} />
+        <Route path="/Into1" element={<Into1 />} />
         <Route path="/Into2" element={<Into2 />} />
         <Route path="/Into3" element={<Into3 />} />
         <Route path="/Welcomepage" element={<WelcomePage />} />
@@ -60,14 +63,16 @@ function App() {
         <Route path="/step5" element={<Step5 />} />
         <Route path="/step6" element={<Step6 />} />
         <Route path="/step7" element={<Step7 />} />
-        <Route  path="/addnewfarm" element ={<AddNewFarm />}/>
-          <Route  path="/farmslist" element ={<FarmsList />}/>
-            <Route  path="/greenvalleyfarm" element ={<GreenValleyFarm />}/>
-   <Route  path="/invoicelist" element ={<InvoiceList />}/>
-    <Route  path="/reportissue" element ={<ReportIssue/>}/>
-        <Route  path="/cropissue" element ={<CropIssue/>}/>
-          <Route  path="/uploadedphoto" element ={<UploadedPhoto/>}/>
-
+        <Route path="/addnewfarm" element={<AddNewFarm />} />
+        <Route path="/farmslist" element={<FarmsList />} />
+        <Route path="/greenvalleyfarm" element={<GreenValleyFarm />} />
+        <Route path="/invoicelist" element={<InvoiceList />} />
+        <Route path="/reportissue" element={<ReportIssue />} />
+        <Route path="/cropissue" element={<CropIssue />} />
+        <Route path="/uploadedphoto" element={<UploadedPhoto />} />
+        <Route path="/activitycard" element={<ActivityCard />} />
+        <Route path="/linkfarmer" element={<LinkFarmer />} />
+        <Route path="/farmerlist" element={<FarmerList />} />
       </Routes>
     </div>
   );
