@@ -37,6 +37,8 @@ import ActivityCard from "./pages/ActivityCard";
 import LinkFarmer from "./pages/LinkFarmer";
 
 import FarmerList from "./pages/FarmerList";
+import FarmerPhoneBook from "./pages/FarmerPhoneBook";
+import AddNewProduct from "./pages/AddNewProduct";
 function App() {
   return (
     <div className="font-poppins mx-auto min-h-screen">
@@ -73,6 +75,8 @@ function App() {
         <Route path="/activitycard" element={<ActivityCard />} />
         <Route path="/linkfarmer" element={<LinkFarmer />} />
         <Route path="/farmerlist" element={<FarmerList />} />
+            <Route path="/Farmerphonebook" element={<FarmerPhoneBook />} />
+             <Route path="/addnewproduct" element={<AddNewProduct />} />
       </Routes>
     </div>
   );
