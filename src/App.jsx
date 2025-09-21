@@ -1,6 +1,5 @@
 import "./App.css";
-import AuthLogin1 from "./pages/AuthLogin1";
-import AuthLogin from "./pages/AuthLongin";
+import UserInfo from "./pages/UserInfo";
 import CattleManagement from "./pages/CattleManagement";
 import CattleQuery from "./pages/CattleQuery";
 import Into1 from "./pages/Into1";
@@ -39,6 +38,8 @@ import LinkFarmer from "./pages/LinkFarmer";
 import FarmerList from "./pages/FarmerList";
 import FarmerPhoneBook from "./pages/FarmerPhoneBook";
 import AddNewProduct from "./pages/AddNewProduct";
+import Dashboard from "./pages/Dashboard";
+import LoginWithOtp from "./pages/LoginWithOtp";
 function App() {
   return (
     <div className="font-poppins mx-auto min-h-screen">
@@ -48,9 +49,9 @@ function App() {
         <Route path="/Into2" element={<Into2 />} />
         <Route path="/Into3" element={<Into3 />} />
         <Route path="/Welcomepage" element={<WelcomePage />} />
+        <Route path="/loginwithotp" element={<LoginWithOtp />} /> 
         <Route path="/language" element={<SelectLanguage />} />
-        <Route path="/authlogin" element={<AuthLogin />} />
-        <Route path="/authlogin1" element={<AuthLogin1 />} />
+        <Route path="/UserInfo" element={<UserInfo />} />
         <Route path="/soilreport" element={<SoilReport />} />
         <Route path="/soilreportsubmit" element={<SoilReportSubmit />} />
         <Route path="/soilreport3" element={<SoilReport3 />} />
@@ -76,7 +77,9 @@ function App() {
         <Route path="/linkfarmer" element={<LinkFarmer />} />
         <Route path="/farmerlist" element={<FarmerList />} />
             <Route path="/Farmerphonebook" element={<FarmerPhoneBook />} />
-             <Route path="/addnewproduct" element={<AddNewProduct />} />
+             <Route path="/addnewproduct" element={<AddNewProduct />} />   
+             <Route path="/dashboard" element={<Dashboard />} /> 
+                 
       </Routes>
     </div>
   );

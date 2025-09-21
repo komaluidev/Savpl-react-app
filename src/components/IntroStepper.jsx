@@ -28,8 +28,8 @@ export const IntroStepper = ({
         </div>
 
         <div className="flex space-x-4 justify-between items-center mt-8 lg:mt-32">
-          <LinkButton href={prevHref}>Previous</LinkButton>
-          <LinkButton href={nextHref}>Next</LinkButton>
+          <LinkButton to={prevHref}>Previous</LinkButton>
+          <LinkButton to={nextHref}>Next</LinkButton>
         </div>
       </div>
     </div>

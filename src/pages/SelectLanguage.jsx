@@ -58,7 +58,7 @@ const SelectLanguage = () => {
             ))}
           </div>
           <div className="flex space-x-4 text-center justify-between items-center mt-4 w-full">
-            <LinkButton href="/walcomepage" className="bg-[#6CC51D] flex-1">
+            <LinkButton href="/welcomepage" className="bg-[#6CC51D] flex-1">
               Previous
             </LinkButton>
             <LinkButton href="/authlogin" className="bg-[#6CC51D] flex-1">
