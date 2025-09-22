@@ -47,7 +47,7 @@ const WelcomePage = () => {
             Already have an account?
             <span
               className="font-bold text-black ml-1"
-              onClick={() => navigate("/login")}
+              onClick={() => navigate("/loginwithotp")}
             >
               Login
             </span>

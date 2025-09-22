@@ -14,7 +14,7 @@ const Into3 = () => {2
                          dignissimos iure aut! Officiis libero aut sed veniam eveniet, ab
                          culpa eum!`}
                  prevHref={"/"}
-                 nextHref={"/walcomepage"}
+                 nextHref={"/welcomepage"}
                  yourLogo={yourLogo}
                />
   );
